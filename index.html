@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <h2>Form Validation</h2><br>
+    <div class="form">
+        
+        <form action="#" autocomplete="off" onsubmit="validation()">
+            <div class="name">
+            Name<input type="text"id="name" placeholder="Enter your name">
+            <i class="fa fa-exclamation-circle"id="i1"></i>
+            <i class="fa fa-check-circle"id="i2"></i>
+            <span id="spn1"></span>
+        </div>
+            <div class="email">
+                email<input type="email"id="email" placeholder="Enter your email">
+            <span id="spn2"></span>
+            <i class="fa fa-exclamation-circle"id="i3"></i>
+            <i class="fa fa-check-circle"id="i4"></i>
+        </div>
+            <div class="phn">
+                Phone<input type="number"id="phn" placeholder="Enter your phone">
+            <span id="spn3"></span>
+            <i class="fa fa-exclamation-circle"id="i5"></i>
+            <i class="fa fa-check-circle"id="i6"></i>
+        </div>
+            <div class="pass">
+                password<input type="password"id="pass" placeholder="Enter your password">
+            <span id="spn4"></span>
+            <i class="fa fa-exclamation-circle"id="i7"></i>
+            <i class="fa fa-check-circle"id="i8"></i>
+        </div>
+            <div class="cnfpass">
+           confirm password <input type="text"id="cnfpass" placeholder="confirm your password">
+            <span id="spn5"></span>
+            <i class="fa fa-exclamation-circle"id="i9"></i>
+            <i class="fa fa-check-circle"id="i10"></i>
+        </div>
+            <div class="btn">
+           <input type="submit"id="btn" value="submit">
+           
+        </div><br>
+        </form>
+    </div>
+</div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
